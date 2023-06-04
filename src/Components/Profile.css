@@ -1,0 +1,57 @@
+/* Profile Page CSS Styles */
+.profile-page {
+    margin: 24px;
+  }
+  
+  .profile-page__header {
+    margin-bottom: 24px;
+  }
+  
+  .profile-page__title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .profile-page__content {
+    display: flex;
+    gap: 48px;
+  }
+  
+  .profile-page__subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .profile-page__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .profile-page__label {
+    font-weight: bold;
+    width: 120px;
+  }
+  
+  .profile-page__text {
+    margin: 0;
+  }
+  
+  .profile-page__orders {
+    flex: 1;
+  }
+  
+  .profile-page__order {
+    margin-bottom: 12px;
+  }
+  
+  .profile-page__order-details {
+    margin: 0;
+  }
+  
+  .profile-page__order-status {
+    margin: 0;
+    color: #888;
+  }
+  

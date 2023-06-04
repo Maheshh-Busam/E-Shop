@@ -1,0 +1,44 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    
+}
+
+.checkout__ad {
+    width: 150%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__left {
+    display: flex;
+    flex-direction: column;
+}
+.checkout__right{
+    margin-left: 400px;
+}
+
+.basketEmptyText{
+    margin-top: 20%;
+    margin-bottom: 30%
+}
+
+.addProductsBtn{
+    width: 150px;
+    background: #ff9f00;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,99 @@
+.shopNowBtn {
+    padding: 5px;
+    border-radius: 8px;
+    background: #ff9f00;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+
+/* Order Placed CSS Styles */
+.order-placed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .order-placed__icon {
+    font-size: 64px;
+    color: #4caf50;
+    margin-bottom: 16px;
+  }
+  
+  .order-placed__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .order-placed__message {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .order-placed__button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .order-placed__button:hover {
+    background-color: #45a049;
+  }
+
+  /* Please Add Products to Checkout CSS Styles */
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .empty-cart__icon {
+    font-size: 64px;
+    color: #f44336;
+    margin-bottom: 16px;
+  }
+  
+  .empty-cart__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .empty-cart__message {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+.shop-now-button{
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}  
+.shop-now-button:hover{
+    background-color: #45a049;
+}
+  

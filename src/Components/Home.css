@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+.home__image {
+    max-width: 1000px;
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+    margin-bottom: -30px;
+    
+}
+
+.home__row {  
+    display: flex; 
+    margin-left: 5px;  
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
