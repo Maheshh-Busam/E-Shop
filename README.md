@@ -1,1 +1,1 @@
-This is an eCommerce Website 
+This is an eCommerce Website . Created using React JS for Front End.
