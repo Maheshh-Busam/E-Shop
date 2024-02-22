@@ -10,22 +10,23 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from './Components/Login';
 
 
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-        <Route path='/profile' element={
+          <Route path='/profile' element={
             <React.Fragment>
               <Header />
-              <Profile/>
+              <Profile />
             </React.Fragment>
           }></Route>
 
           <Route path='/orderPlaced' element={
             <React.Fragment>
               <Header />
-              <Order/>
+              <Order />
             </React.Fragment>
           }></Route>
           <Route path='/login' element={<Login />}></Route>
@@ -39,7 +40,7 @@ function App() {
 
           <Route path='/' element={
             <React.Fragment>
-              <Header />
+              < Header />              
               <Home />
             </React.Fragment>
           }></Route>

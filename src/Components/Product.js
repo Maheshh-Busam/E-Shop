@@ -5,7 +5,6 @@ import { db } from './firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
 
-
 function Product() {
 
     const [products, setProducts] = useState([]);
@@ -39,6 +38,7 @@ function Product() {
 
     return (
         <>
+
             {products.map((product) => {
                 return (
                 <div className="product" key={product.id}>
