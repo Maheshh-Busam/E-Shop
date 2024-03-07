@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #131921;
     position: sticky;
+    justify-content: space-between;
     top: 0;
     z-index: 100;
 }

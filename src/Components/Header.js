@@ -5,7 +5,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 
-function Header() {
+function Header( ) {
   const [{basket}, dispatch] = useStateValue();
   return (
     <div className="header">
@@ -15,11 +15,9 @@ function Header() {
         </div>
       </Link>
 
-      <div className="header__search">
-        {/* <input type="text" className="header__searchInput" />
-        <SearchIcon className="header__searchIcon" /> */}
-        {/* <SearchBar /> */}
-      </div>
+      {/* <div className="header__search">
+        <input type="text" placeholder="Seacr Product.." className="header__searchInput" />
+      </div> */}
       <div className="header__nav">
         <div className="nav__item">
           <div className="nav__itemLineOne" fontSize="large">Hello Guest</div>
